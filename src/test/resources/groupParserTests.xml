@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Test GroupsParser">
+    <test name="testing">
+        <groups>
+            <run>
+                <include name="parser"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="JsonParserTest"/>
+        </classes>
+    </test>
+</suite>

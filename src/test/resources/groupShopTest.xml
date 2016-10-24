@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Test group shop and item">
+    <test name="testing">
+        <parameter name="price" value="112.56"/>
+        <groups>
+            <run>
+                <include name="shop"/>
+                <exclude name="item"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ShopTest"/>
+        </classes>
+    </test>
+</suite>
