@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
